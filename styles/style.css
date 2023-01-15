@@ -140,7 +140,8 @@ ul li a {
 
 .feature-img img {
     margin-left: 50px;
-    height: 700px;
+    height: auto;
+    width: 100%;
 }
 
 .feature-btn {
