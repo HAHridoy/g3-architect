@@ -46,7 +46,7 @@ ul li a {
 
 .header-title {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 45px;
     color: #131313;
 }
 
@@ -84,14 +84,65 @@ ul li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-   padding: 0px 70px 130px 100px;
+    padding: 0px 70px 130px 100px;
 }
-.quick-list-description{
-    margin: 200px 100px 300px 0px;
+
+.quick-list-description {
+    margin: 200px 100px 200px 0px;
 }
-.span-1{
+
+.span-1 {
     color: #727272;
 }
-.span-2{
+
+.span-2 {
     color: #FF900E;
 }
+
+/* Feature Styles */
+
+.features {
+    display: flex;
+    margin: 70px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin: 20px;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.feature {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.feature-img img {
+    margin-left: 50px;
+    height: 700px;
+}
+
+.feature-btn {
+    padding: 45px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+}
+button span{
+    font-size: 45px;
+}
+
+/* Facts styles  */
